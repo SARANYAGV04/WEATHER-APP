@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(./bgimg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#main{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 500px;
+     width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 20px;
+   
+}
+#weather-div{
+    /* background-color: rgba(0,0,0,0.7);
+    border: 2px solid darkslategrey; */
+    /* height: 200px; */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#weather-div h1{
+    margin: 20px;
+}
+#weather-div input{
+    border: transparent;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width:300px;
+    cursor: pointer;
+}
+#weather-div button{
+    background-color: black;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+#weather-div button:focus{
+    background-color: darkslategrey;
+    color: white;
+}
+#ans-div{
+    /* background-image: url(./weatherdivimg.jpg); */
+    /* height: 300px; */
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 400px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.description{
+    color: white;
+}
